@@ -1,0 +1,161 @@
+body{
+    margin: 0 auto;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.nav-bar{
+    background-color: #c65383;
+    width: 100%;
+    height: 70px;
+    /*position: fixed;*/
+}
+.logo{
+    height: 80px;
+    width: 70px;
+}
+.nav-list{
+    margin:0 auto;
+    float: right;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.list-item{
+    display: inline;
+    padding: 15px;
+    /*height: 30px;*/
+    /*width: 20px;*/
+}
+.list-item a{
+    text-decoration: none;
+    color: #003a58;
+    font-weight: 700;
+}
+.list-item a:hover{
+    color: red;
+    /*background-color: blue;*/
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    /*position: relative;*/
+   
+}
+.banner-text-background{
+    height: 100px;
+    width: 300px;
+    background-color:#af3415;
+    position: absolute;
+    top: 96px;
+    left: 52%;
+    color: #040933;
+    border-radius:20px;
+    text-align: center;
+}
+.banner-text{
+    color:#094f06;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px black;
+}
+.container{ 
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.column-one ,.column-two{
+    width: 49%;
+    border:3px solid #040933 ;
+    /*float: left;*/
+    position: absolute;
+    margin-left: 10px;
+}
+.column-two{
+    left: 50%;
+    font-family: 'Marck Script', cursive;
+}
+.col-text{
+    padding: 15px;
+}
+/*********About Styles*****/
+.map {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+ }
+ 
+ .contact-form {
+  width: 1000px;
+  height:491px;
+  border: 3px solid #3663aa ;
+  margin-left: 167px;
+  margin-bottom: 50px;
+  padding: 10px;
+ 
+  
+  
+ }
+ 
+.about-container{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    top: 70px;
+
+}
+.about-col{
+    display: inline-block;
+    height: 700px;
+    width: 32%;
+    border: 3px solid #1a7236;
+}
+.about-img{
+    width: 100%;
+    height: 300px;
+}
+.pic {
+    position: absolute;
+    left: 0;
+}
+.audio{
+    position: absolute;
+    left: 33%;
+}
+    
+.video{
+    position: absolute;
+    left: 66%;
+}
+.sound {
+    padding-top: 5px;
+    
+}
+.dog{
+    height:600px;
+    width: 100%;
+ 
+}
+ /********footer Styles******/  
+.footer{
+    background-color: #4286f4;
+    height: 100px;
+    width: 100%;
+}
+.footer-col{
+    width: 33%;
+    height: 30px;
+    display:inline-block;
+    margin-top: 30px;
+    text-align: center;
+}
+.fa-twitter{
+    margin-left: 15px;
+}
+.copyright{
+    font-weight: 700;
+}
